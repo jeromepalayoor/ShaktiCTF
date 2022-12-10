@@ -25,7 +25,7 @@ After base64 decoding that string, I got ```dYR\eZTeWlTcjae!P"dPdfa$cPVRkjjjjjjP
 
 I wrote a quick script to get back the flag by doing everything the same except adding 15 instead of subtracting it.
 
-```
+```py
 enc = 'dYR\eZTeWlTcjae!P"dPdfa$cPVRkjjjjjjPXT%$#ec&\'X%ec&%n'
 
 s = ''
